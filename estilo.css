@@ -1,0 +1,37 @@
+@charset "utf-8";
+/*CSS Document*/
+h1 {
+    color:blueviolet;
+    font-size: 30px;
+}   
+h2 {
+    color: violet;
+    font-size: 15px;
+}
+.parrafointroductorio p {
+    color: blueviolet;
+    font-size: 20px;
+}
+.portfolio h1 {
+    color: blue;
+    font-size: 30px; 
+}
+.portfolio h2 {
+    color: blue;
+    font-size: 20px;
+}
+.portfolio p {
+    color: red;
+    font-size: 10px;
+}
+.imagen {
+    width: 1000px;
+    height: 2000px; 
+}
+.caja {
+    width: 1000px;
+    height: 500px;
+    background-color: pink;
+    padding: 20px;
+    margin: 10px;
+}
