@@ -1,5 +1,9 @@
 @charset "utf-8";
 /*CSS Document*/
+*{ 
+    margin: 0px;
+    padding: 0px;
+}
 h1 {
     color:blueviolet;
     font-size: 30px;
@@ -12,11 +16,11 @@ h2 {
     color: blueviolet;
     font-size: 20px;
 }
-.portfolio h1 {
+.portfolio h2 {
     color: blue;
     font-size: 30px; 
 }
-.portfolio h2 {
+.portfolio h3 {
     color: blue;
     font-size: 20px;
 }
@@ -25,12 +29,12 @@ h2 {
     font-size: 10px;
 }
 .imagen {
-    width: 1000px;
-    height: 2000px; 
+    width: 180px;
+    height: 300px; 
 }
 .caja {
-    width: 1000px;
-    height: 500px;
+    width: 1800px;
+    height: 320px;
     background-color: pink;
     padding: 20px;
     margin: 10px;
