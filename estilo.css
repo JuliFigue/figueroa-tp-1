@@ -1,8 +1,9 @@
 @charset "utf-8";
 /*CSS Document*/
 *{ 
-    margin: 0px;
-    padding: 0px;
+    margin: 5px;
+    padding: 6px;
+    background-color: beige;
 }
 h1 {
     color:blueviolet;
@@ -30,7 +31,11 @@ h2 {
 }
 .imagen {
     width: 180px;
-    height: 300px; 
+    height: 400px; 
+}
+.epigrafe {
+   font-size: 8px;
+    color: lightseagreen
 }
 .caja {
     width: 1800px;
@@ -38,4 +43,15 @@ h2 {
     background-color: pink;
     padding: 20px;
     margin: 10px;
+}
+.flex-conteiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.pie-de-pagina {
+    color: blueviolet;
+    font-size: 10px;
+
 }
