@@ -1,15 +1,15 @@
 @charset "utf-8";
+
 /*CSS Document*/
-*{ 
-    margin: 5px;
-    padding: 4px;
+* {
+    box-sizing: border-box;
 }
 body {
     background-image: url(img/fondo-general.svg);
     background-repeat: no-repeat;
     background-size: cover;
     font-family: "Manrope", sans-serif;
-    color: #9c27b0 ;
+    color: #9c27b0;
 }
 a {
     text-decoration: none;
@@ -32,8 +32,8 @@ h2 {
     font-size: 18px;
     text-transform: uppercase;
 }
-#cabecera {
-    width: 1506px;
+header {
+    width: 95vw;
     height: auto;
     background-color: #f0f0f0;
     border-radius: 20px;
@@ -52,55 +52,62 @@ nav ul {
 }
 nav li {
     font-weight: bold;
-    color:#9c27b0;
+    color: #9c27b0;
 }
 main.caja {
+    width: 95vw;
     display: flex;
-    flex-wrap: wrap;
     padding: 20px;
     gap: 30px;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
-.imagen img {
+.parrafointroductorio img {
     width: 200px;
     height: 200px;
     object-fit: cover;
     border-radius: 12px;
-    border: 4px solid  #00e676;
+    border: 4px solid #00e676;
 }
 .parrafointroductorio {
     background-color: #ffffff;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    max-width: 410px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-left: 6px solid #00e676;
-}
-.parrafointroductorio h4 {
-    color: #9c27b0;
-    font-family: "DM Serif Text", serif;
-    font-style: italic;
-    font-size: 22px;
-    text-decoration: underline;
-    margin-bottom: 10px;
+    width: 75vw;
+    gap: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 .parrafointroductorio p {
     color: #6a1b9a;
     line-height: 1.6;
     font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: baseline;
+    justify-content: flex-end;
 }
-.grid-div section {
+.grid-div {
     background-color: #f9f9f9;
-    border-left: 6px solid #9c27b0;    
+    border-left: 6px solid #9c27b0;
 }
-.grid-div section:hover {
+.grid-div:hover {
     background-color: #ffffff;
     transform: scale(1.02);
     transition: all 0.3s ease-in-out;
 }
 .galeria {
-    width: 1480px;
+    width: 75vw;
+    height: 65vw;
     padding: 20px;
     margin: 10px;
     font-family: "Manrope", sans-serif;
@@ -110,47 +117,52 @@ main.caja {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-  .galeria h2 {
+}
+.galeria h2 {
     color: #7f0dea;
     font-size: 18px;
     margin-bottom: 15px;
     text-align: center;
-  }
-  .flex-galeria {
+}
+.flex-galeria {
+    padding: 10px;
     display: flex;
     flex-direction: row;
     gap: 15px;
     width: 100%;
     align-items: center;
-  }
-  .flex-galeria img {
+}
+.flex-galeria img {
     width: 100%;
     max-width: 320px;
     border-radius: 10px;
     object-fit: cover;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
     transition: transform 0.3s ease;
-  } 
-  .flex-galeria img:hover {
+}
+.flex-galeria img:hover {
     transform: scale(1.03);
-  }
-  .footer {
+}
+.footer {
     width: 100%;
-    background-color: #d4c1ff; /* un violeta suave tipo pop art */
+    background-color: #d4c1ff;
     padding: 20px 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-top: 4px solid #8f62ff; /* línea superior para destacar */
+    border-top: 4px solid #8f62ff;
     margin-top: 40px;
     font-family: "Manrope", sans-serif;
-  }
-  .footer p {
+}
+aside {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.footer p {
     margin: 0;
     font-size: 14px;
     color: #333;
     text-align: center;
-  }
-  
-  
+}
