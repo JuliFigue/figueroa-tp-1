@@ -2,3 +2,4 @@
 Para realizar este trabajo práctico, desarrollé dos archivos por separado: uno en HTML y otro en CSS. En el archivo HTML construí la estructura general de mi currículum, utilizando etiquetas como <head>, <body> y <footer>, y organizando el contenido mediante elementos como <div>, <section> y listas (<li>), lo que me permitió mantener un orden visual y semántico claro. Por otro lado, en el archivo CSS, que vinculé al HTML a través de la etiqueta <link>, apliqué los estilos correspondientes. Trabajé con una paleta de colores inspirada en el Pop Art, lo que le dio al diseño un aspecto vibrante y llamativo, con contrastes fuertes y una estética lúdica. Además, utilicé propiedades de Flexbox para distribuir y alinear los elementos de manera más flexible, logrando una disposición visualmente equilibrada.
 Medidas de la pantalla: 1920px x 1080px
 Editor de codigo utilizado: Visual Studio Code
+04-05-2025 Se realizaron los cambion marcados para entregar el recuperatorio.

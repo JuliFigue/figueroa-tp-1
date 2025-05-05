@@ -5,37 +5,38 @@
     box-sizing: border-box;
 }
 body {
-    background-image: url(img/fondo-general.svg);
-    background-repeat: no-repeat;
+    background-color: #d91656;
     background-size: cover;
     font-family: "Manrope", sans-serif;
     color: #9c27b0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 a {
     text-decoration: none;
-    color: #00e676;
+    color: #69247C;
 }
 a:hover {
-    color: #ffeb3b;
+    color: #D91656;
     font-size: 0.9em;
 }
 h1.titulo {
-    color: #00e676;
+    color: #69247C;
     font-family: "DM Serif Text", serif;
     font-size: 80px;
     text-align: center;
     margin: 0;
-    text-shadow: 2px 2px #9c27b0;
 }
 h2 {
-    color: #9c27b0;
+    color: #69247C;
     font-size: 18px;
     text-transform: uppercase;
 }
 header {
-    width: 95vw;
+    width: 82vw;
     height: auto;
-    background-color: #f0f0f0;
+    background-color: #F9E6CF;
     border-radius: 20px;
     background-attachment: fixed;
     padding: 10px;
@@ -52,66 +53,67 @@ nav ul {
 }
 nav li {
     font-weight: bold;
-    color: #9c27b0;
+    color: #69247C;
 }
-main.caja {
+main {
     width: 95vw;
     display: flex;
     padding: 20px;
     gap: 30px;
-    justify-content: flex-start;
     align-items: flex-start;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .parrafointroductorio img {
     width: 200px;
     height: 200px;
     object-fit: cover;
     border-radius: 12px;
-    border: 4px solid #00e676;
+    border: 4px solid #69247C;
 }
 .parrafointroductorio {
-    background-color: #ffffff;
+    background-color: #F9E6CF;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-left: 6px solid #00e676;
-    width: 75vw;
+    border-left: 6px solid #69247C;
+    width: 81vw;
     gap: 20px;
     display: flex;
-    flex-wrap: nowrap;
     align-content: center;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 .parrafointroductorio p {
-    color: #6a1b9a;
+    color: #69247C;
     line-height: 1.6;
-    font-size: 16px;
+    font-size: 22px;
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
     align-items: baseline;
     justify-content: flex-end;
 }
-.grid-div {
+.datos {
     background-color: #f9f9f9;
     border-left: 6px solid #9c27b0;
+    display: flex;
+    padding: 20px;
+    list-style: none;
+    gap: 15px;
 }
-.grid-div:hover {
-    background-color: #ffffff;
+.datos:hover {
+    background-color:#F9E6CF;
     transform: scale(1.02);
     transition: all 0.3s ease-in-out;
 }
 .galeria {
-    width: 75vw;
-    height: 65vw;
+    width: 45vw;
+    height: 44vw;
     padding: 20px;
     margin: 10px;
     font-family: "Manrope", sans-serif;
-    background-color: white;
+    background-color: #F9E6CF;
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     display: flex;
@@ -119,8 +121,8 @@ main.caja {
     align-items: center;
 }
 .galeria h2 {
-    color: #7f0dea;
-    font-size: 18px;
+    color: #69247C;
+    font-size: 25px;
     margin-bottom: 15px;
     text-align: center;
 }
@@ -134,7 +136,7 @@ main.caja {
 }
 .flex-galeria img {
     width: 100%;
-    max-width: 320px;
+    max-width: 200px;
     border-radius: 10px;
     object-fit: cover;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
@@ -145,24 +147,18 @@ main.caja {
 }
 .footer {
     width: 100%;
-    background-color: #d4c1ff;
+    background-color: #F9E6CF;
     padding: 20px 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-top: 4px solid #8f62ff;
+    border-top: 4px solid #d5c5b1;
     margin-top: 40px;
     font-family: "Manrope", sans-serif;
-}
-aside {
-    display: flex;
-    justify-content: center;
-    flex-direction: row-reverse;
-    align-items: center;
 }
 .footer p {
     margin: 0;
     font-size: 14px;
-    color: #333;
+    color: #D91656;
     text-align: center;
 }
